@@ -1,0 +1,15 @@
+.video__iframes {
+  margin: 50px auto -52px auto;
+  width: min-content;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 20px;
+
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}

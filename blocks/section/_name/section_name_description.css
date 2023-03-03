@@ -1,0 +1,8 @@
+.section_name_description {
+  padding-top: 100px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}

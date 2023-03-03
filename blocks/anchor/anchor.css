@@ -1,0 +1,12 @@
+.anchor {
+  color: inherit;
+  text-decoration: none;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+
+.anchor:hover {
+  opacity: 0.2;
+}
