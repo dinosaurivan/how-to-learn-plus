@@ -1,11 +1,10 @@
 .section_name_kaufman {
+  width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #1f1f1f;
   overflow: hidden;
 
   position: relative;
-  left: 0;
-  right: 0;
   z-index: 0;
 }

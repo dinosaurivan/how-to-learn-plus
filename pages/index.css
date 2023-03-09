@@ -1,10 +1,14 @@
+/* нормализация и шрифты */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
 /* общие правила */
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 
 /* стили вспомогательных блоков */
 @import url(../blocks/anchor/anchor.css);
-@import url(../blocks/text/text.css);
+@import url(../blocks/list-simple/list-simple.css);
 @import url(../blocks/centered-block/centered-block.css);
 @import url(../blocks/rotation/rotation.css);
 
@@ -191,8 +195,7 @@
 @import url(../blocks/table/table.css);
 
 /* 2. модификаторы блока */
-@import url(../blocks/table/_name/table_name_digits.css);
-@import url(../blocks/table/_name/table_name_kaufman.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 
 /* 3. элементы блока */
 @import url(../blocks/table/__cell/table__cell.css);
@@ -200,8 +203,7 @@
 @import url(../blocks/table/__text/table__text.css);
 
 /* 4. модификаторы элементов блока */
-@import url(../blocks/table/__cell/_size/table__cell_size_wide.css);
-@import url(../blocks/table/__cell/_size/table__cell_size_narrow.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 

@@ -2,5 +2,6 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: flex-start;
+  column-gap: 48px;
 }

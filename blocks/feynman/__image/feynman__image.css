@@ -1,6 +1,11 @@
 .feynman__image {
+  background-image: url(../../../images/section-specials/feynman.png);
+
   width: 867px;
   height: 637px;
+
+  object-fit: cover;
+  object-position: bottom left;
 
   position: absolute;
   bottom: 0;

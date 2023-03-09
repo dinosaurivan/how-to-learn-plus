@@ -1,4 +1,9 @@
 .two-columns__main-text {
-  min-width: 784px;
   width: 80%;
+  min-width: 784px;
+  margin: 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 30px;
 }

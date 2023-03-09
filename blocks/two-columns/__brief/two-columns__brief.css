@@ -3,6 +3,8 @@
   font-size: 18px;
   font-weight: normal;
 
-  width: 175px;
+  width: 100%;
+  max-width: 175px;
   color: #2f80ed;
+  margin: 0;
 }

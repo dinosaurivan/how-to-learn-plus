@@ -1,9 +1,14 @@
 .footer {
-  min-height: 350px;
   color: white;
   background-color: #1f1f1f;
 
   margin: 0;
-  padding: 60px 0 40px 0;
+  min-height: 350px;
   box-sizing: border-box;
+  padding: 60px 0 40px 0;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
 }
