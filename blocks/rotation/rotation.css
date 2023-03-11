@@ -1,19 +1,40 @@
-@keyframes full_rotation {
+@-webkit-keyframes full_rotation {
   from {
+    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes full_rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
 .rotation {
+  -webkit-animation-name: full_rotation;
   animation-name: full_rotation;
+  -webkit-animation-duration: 20s;
   animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
   animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
   animation-direction: normal;
+  -webkit-animation-play-state: running;
   animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }

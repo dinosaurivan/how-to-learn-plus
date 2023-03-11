@@ -1,5 +1,7 @@
 .header__main-illustration {
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: bottom right;
   object-position: bottom right;
 
   width: 765px;
